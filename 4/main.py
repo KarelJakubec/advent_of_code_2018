@@ -15,8 +15,8 @@ def main():
                 if i1[i] != i2[i]:
                     diff += 1
 
-                # if diff > 1:
-                #     break
+                if diff > 1:
+                    break
             
             if diff == 1:
                 out = ""
@@ -26,8 +26,6 @@ def main():
                 
                 print(out)
                 return 
-
-
 
 
 if __name__ == "__main__":
