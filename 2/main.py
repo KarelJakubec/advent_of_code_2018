@@ -23,7 +23,6 @@ def main():
         
         if i >= len(all) - 1:
             i = 0
-            print("Iteration")
         else:
             i += 1
 
