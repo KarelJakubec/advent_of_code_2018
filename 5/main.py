@@ -14,8 +14,6 @@ def main():
                 continue
 
             parts = line.split(" ")
-            
-            claim_id
 
             col_start = int(parts[2].split(",")[0])
             row_start = int(parts[2].split(",")[1][:-1])

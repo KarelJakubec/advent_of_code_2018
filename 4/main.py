@@ -17,7 +17,7 @@ def main():
 
                 if diff > 1:
                     break
-            
+
             if diff == 1:
                 out = ""
                 for i in range(0, len(i1)):
